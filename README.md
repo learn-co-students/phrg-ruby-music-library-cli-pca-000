@@ -111,5 +111,9 @@ Have fun!
   - This walk-through traces an error to its source in the code. In addition it covers how to change file permissions and how to create an executable file to initialize a sandbox environment.
 * [Lab Review](https://www.youtube.com/watch?v=iClea2crypU)
 
+## Does this need an update?
+
+Please open a [GitHub issue](https://github.com/learn-co-curriculum/phrg-ruby-music-library-cli/issues) or [pull-request](https://github.com/learn-co-curriculum/phrg-ruby-music-library-cli/pulls). Provide a detailed description that explains the issue you have found or the change you are proposing. Then "@" mention your instructor on the issue or pull-request, and send them a link via Connect.
+
 <p class='util--hide'>View <a href='https://learn.co/lessons/ruby-music-library-cli'>Music Library CLI</a> on Learn.co and start learning to code for free.</p>
 <p data-visibility='hidden'>PHRG Ruby Music Library</p>
