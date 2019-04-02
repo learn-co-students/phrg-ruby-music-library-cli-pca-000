@@ -1,4 +1,5 @@
 require "spec_helper"
+require 'pry'
 
 describe "Associations — Song and Artist:" do
   let(:song) { Song.new("In the Aeroplane Over the Sea") }
@@ -59,7 +60,7 @@ describe "Associations — Song and Artist:" do
 
         expect(song.artist).to be(artist)
       end
-
+# binding.pry
       it "does not assign the artist if the song already has an artist" do
         song.instance_variable_set(:@artist, artist)
 
