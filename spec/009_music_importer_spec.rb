@@ -1,4 +1,5 @@
 require "spec_helper"
+require 'pry'
 
 describe "MusicImporter" do
   let(:music_importer) { MusicImporter.new("./spec/fixtures/mp3s") }
@@ -15,7 +16,6 @@ describe "MusicImporter" do
       expect(music_importer.path).to eq("./spec/fixtures/mp3s")
     end
   end
-
   describe "#files" do
     it "loads all the MP3 files in the path directory" do
       expect(music_importer.files.size).to eq(5)
