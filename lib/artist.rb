@@ -1,7 +1,6 @@
-require 'pry'
+# require 'pry'
 
 class Artist
-
   extend Concerns::Findable
 
   attr_accessor :name, :songs, :genre
@@ -58,13 +57,13 @@ class Artist
     self.songs.collect {|song| song.genre}.uniq
   end
 
-   def self.find_or_create_by_name(name)
-    @@all.each do |artist|
-      if artist.name == name
-        return artist
-      end
-    end
-    new(name).save
-  end
+  #  def self.find_or_create_by_name(name)
+  #   @@all.each do |artist|
+  #     if artist.name == name
+  #       return artist
+  #     end
+  #   end
+  #   new(name).save
+  # end
 
 end
